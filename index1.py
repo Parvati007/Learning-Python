@@ -1,4 +1,4 @@
-#Writinf first program in python
+#Writing first program in python
 #print("Hello World!!")
 #print("My name is PARVATI.", "My age is 21.")
 #print(25+36)
@@ -25,15 +25,19 @@
 # print(sum)
 
 #division 
-A,B=1,2
-C=A/B
-print(C)   #0.5
+# A,B=1,2
+# C=A/B
+# print(C)   #0.5
 
-#integer division
-a,b=1,2
-c=a//b
-print(c)   #0
+# #integer division
+# a,b=1,2
+# c=a//b
+# print(c)   #0
 
-x,y=1.5,3
-z=x//y
-print(z)   #0.0
+# x,y=1.5,3
+# z=x//y
+# print(z)   #0.0
+
+#Comments in python
+#1. single line.............#content
+#2. multi line............."""content"""
