@@ -41,3 +41,13 @@
 #Comments in python
 #1. single line.............#content
 #2. multi line............."""content"""
+
+#Expression Execution 
+#1. string and numeric values can operates together with * (repeat).
+#2. string and string can operate with + (concatenation).
+#3. numeric value can operate with all arithmetic operator.
+#4. arithmetic expression with integer and float will result in float.
+#5. result of division operator with two integer will be float.
+#6. Integer division(//) with float and int will give int but displayed as float.
+#7. Integer divison with int and int result in int also.
+#8. remainder is negative when the denominator is negative.
