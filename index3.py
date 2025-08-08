@@ -31,5 +31,7 @@ print(list1)
 list1.pop(0)        #[3,1]
 print(list1)
 
+#TUPLES
+
 
 
