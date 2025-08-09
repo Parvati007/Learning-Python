@@ -16,3 +16,4 @@ print(dict)
 null_dict={}
 null_dict["name"]="paru"
 print(null_dict)
+
