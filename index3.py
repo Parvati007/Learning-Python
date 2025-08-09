@@ -1,4 +1,5 @@
 #LISTS
+
 # A built-in data type that stores set of values
 # can store diff types of elements
 # NOTE : Strings are immutable and lists are mutabale

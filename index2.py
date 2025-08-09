@@ -1,3 +1,5 @@
+#STRINGS
+
 #Strings: data type that store a sequence of characters
 # Escape sequence character =\n,\t
 # basic operations in strings
