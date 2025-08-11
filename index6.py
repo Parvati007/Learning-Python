@@ -79,4 +79,18 @@ def converter(usd_val):
     print(usd_val,"USD = ",inr_val,"INR")
 
 converter(100) 
-   
+
+#-----------------------------------------------------------------------
+#WAF to echeck even and odd number
+
+n= int(input("Enter a number :"))
+
+def num_check(n):
+    if(n%2==0):
+        print("EVEN")
+    else:
+        print("ODD")
+
+num_check(n)
+
+
