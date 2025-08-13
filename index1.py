@@ -4,7 +4,7 @@
 #print("Hello World!!")
 #print("My name is PARVATI.", "My age is 21.")
 #print(25+36)
-
+#---------------------------------------------------
 #Variables
 # name="PARVATI"
 # age=21
@@ -12,14 +12,14 @@
 # old=False
 # z=None
 # print(name,age,price)
-
+#----------------------------------------------------
 #Data Types
 # print(type(name))  #str
 # print(type(age))   #int
 # print(type(price)) #float
 # print(type(old))   #bool
 # print(type(a))     #NoneType
-
+#----------------------------------------------------
 #print sum of two numbers
 # a=2
 # b=5
@@ -39,11 +39,11 @@
 # x,y=1.5,3
 # z=x//y
 # print(z)   #0.0
-
+#---------------------------------------------------------------------
 #Comments in python
 #1. single line.............#content
 #2. multi line............."""content"""
-
+#---------------------------------------------------------------------
 #Expression Execution 
 #1. string and numeric values can operates together with * (repeat).
 #2. string and string can operate with + (concatenation).
@@ -53,13 +53,13 @@
 #6. Integer division(//) with float and int will give int but displayed as float.
 #7. Integer divison with int and int result in int also.
 #8. remainder is negative when the denominator is negative.
-
+#---------------------------------------------------------------------
 #Taking input from the user in python
 # name=input("name is : ")
 # age=int(input("age is : "))
 # price=float(input("price is : "))
 # print("my name is ",name,".I am",age,"years old.")
-
+#----------------------------------------------------------------------
 #Conditional statements
 
 #traffic lights code
@@ -84,7 +84,7 @@
 # else:
 #     print("D")  
 
-
+#-----------------------------------------------
 #Ternary operator
 # food = input("food is : ")
 # eat ="yes" if food=="cake" else "no"
@@ -103,7 +103,7 @@
 # sal=float(input("salary is : "))
 # tax=sal*(0.1,0.2) [sal>50000]
 # print("tax is : " ,tax)
-
+#---------------------------------------------------
 #Arithmetic operators
 # a=5
 # b=2
@@ -113,7 +113,7 @@
 # print(a/b)
 # print(a%b)
 # print(a**b)
-
+#---------------------------------------------------
 #Comparison operator (boolean)
 # a=10
 # b=20
@@ -123,7 +123,7 @@
 # print(a<b)  #True
 # print(a>=b) #False
 # print(a<=b) #True
-
+#---------------------------------------------------
 #Assignment operator
 # num = 10
 # num += 10
@@ -150,7 +150,7 @@
 
 # print("AND operation : ", val1 and val2)
 # print("OR operation : ",val1 or val2)
-
+#------------------------------------------------
 #Type conversion.....automatically
 # a=10
 # b=100.0

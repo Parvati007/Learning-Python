@@ -28,6 +28,7 @@ print(len(str))# 14
 # str5="apple"
 # print(str5[-3:-1])  #pl
 
+#----------------------------------------------------------
 #STRING FUNCTIONS
 str6="parvati"
 print(str6.endswith("ti"))   #True
