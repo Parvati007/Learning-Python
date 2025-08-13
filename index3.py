@@ -32,6 +32,7 @@
 # list1.pop(0)        #[3,1]
 # print(list1)
 
+#-----------------------------------------------------------------------
 #TUPLES
 #a built-in data type that let us create immutable sequences of values
 # tup=()
