@@ -24,7 +24,6 @@
 # 4. Closing a File
 
 # file.close() → releases resources
-# Or use with statement for automatic closing:
 
 # with open("data.txt", "r") as f:
 #     content = f.read()
