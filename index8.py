@@ -28,7 +28,21 @@
 # with open("data.txt", "r") as f:
 #     content = f.read()
 
-f=open("demo.txt","r")
-data=f.read()
-print(data)
-print(type(data))
+# f=open("demo.txt","r")
+# data=f.read()
+# print(data)
+# f.close()
+
+# f=open("demo.txt","r")
+# data= f.read(5)
+# print(data)
+# f.close()
+
+# f=open("demo.txt","r")
+# data= f.read()
+# print(data)
+# line1=f.readline()
+# print(line1)
+# line2=f.readline()
+# print(line2)
+# f.close()
