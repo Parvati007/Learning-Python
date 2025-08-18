@@ -113,7 +113,7 @@
 #     else:
 #         print("not found")    
 # ------------------------------------------------------------------------
-#waf to find in which line of the file does the word learning occur first.print -1 word not found
+#WAF to find in which line of the file does the word learning occur first.print -1 word not found
 # def check_line():
 #     word="learning"
 #     data=True
@@ -126,4 +126,16 @@
 #                 return
 #             line_no +=1
 #     return -1
-# print(check_line())          
+# print(check_line())  
+# 
+# ----------------------------------------------------------------------------------
+# from the file containing numbers separated by comma.print the count of even numbers
+count=0
+with open("practice.txt","r") as f:
+    data=f.read()
+    nums=data.split(",")
+    for val in nums:
+        if(int(val)%2==0):
+            count+=1
+
+print(count)         #1,2,3,4,5,6,7,8,9,10...............output..5            
