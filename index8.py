@@ -105,10 +105,25 @@
 
 #------------------------------------------------------------------------   
 # search if the word learning exist in file or not
-word="learning"
-with open("practice.txt","r") as f:
-    data=f.read()
-    if(data.find(word)!=-1):
-        print("found")
-    else:
-        print("not found")         
+# word="learning"
+# with open("practice.txt","r") as f:
+#     data=f.read()
+#     if(data.find(word)!=-1):
+#         print("found")
+#     else:
+#         print("not found")    
+# ------------------------------------------------------------------------
+#waf to find in which line of the file does the word learning occur first.print -1 word not found
+# def check_line():
+#     word="learning"
+#     data=True
+#     line_no=1  
+#     with open("practice.txt","r") as f:
+#         while data:
+#             data=f.readline()
+#             if(word in data):
+#                 print(line_no)
+#                 return
+#             line_no +=1
+#     return -1
+# print(check_line())          
