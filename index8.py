@@ -70,4 +70,13 @@
 # with open("demo.txt","w") as f:
 #     f.write("new data")    
 #---------------------------------------
+#DELETING A FILE
+#using the os module
+#module(like a code librar) is a file written by another programmer that generally has function we can use.
 
+import os
+os.remove("demo.txt")
+
+#command to install external modules
+#pip install tensorflow
+#pip3 install tensorflow
