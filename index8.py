@@ -60,3 +60,14 @@
 # f.close()
 
 #if file is not their by default it created then in folder inboth mode w and a.
+#----------------------------------------------------------------------------------
+#WITH syntax
+
+# with open("demo.txt","r") as f:
+#     data=f.read()
+#     print(data)
+
+# with open("demo.txt","w") as f:
+#     f.write("new data")    
+#---------------------------------------
+
