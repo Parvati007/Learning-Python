@@ -27,3 +27,8 @@
 
 # with open("data.txt", "r") as f:
 #     content = f.read()
+
+f=open("demo.txt","r")
+data=f.read()
+print(data)
+print(type(data))
