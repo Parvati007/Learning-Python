@@ -28,16 +28,18 @@
 # with open("data.txt", "r") as f:
 #     content = f.read()
 
+#------------------------------------------------
+#READING FROM THE FILE
 # f=open("demo.txt","r")
 # data=f.read()
 # print(data)
 # f.close()
-
+#-------------------------------------------------
 # f=open("demo.txt","r")
 # data= f.read(5)
 # print(data)
 # f.close()
-
+#-----------------------------------------------
 # f=open("demo.txt","r")
 # data= f.read()
 # print(data)
@@ -46,3 +48,15 @@
 # line2=f.readline()
 # print(line2)
 # f.close()
+#-----------------------------------------------------------------
+#WRITING IN THE FILE
+# f=open("demo.txt","w")     # w ovrewrite the file data
+# f.write("hello world")
+# f.close()
+
+#--------------------------------------------------------------
+# f=open("demo.txt","a")     # a add the file data at the end
+# f.write("\ni am parvati")
+# f.close()
+
+#if file is not their by default it created then in folder inboth mode w and a.
