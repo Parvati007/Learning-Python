@@ -74,9 +74,41 @@
 #using the os module
 #module(like a code librar) is a file written by another programmer that generally has function we can use.
 
-import os
-os.remove("demo.txt")
+# import os
+# os.remove("demo.txt")
 
 #command to install external modules
 #pip install tensorflow
 #pip3 install tensorflow
+
+#-----------------------------------------------------------------------
+#PRACTICE QUESTIONS
+#create a new fule practice.txt using python add following data
+#hi everyone
+#we are learning file i/o
+#using java
+#i like programming in java
+
+# with open("practice.txt","w") as f:
+#     f.write("hi everyone\nwe are learning java\n")
+#     f.write("using java.\ni like programming in java.")
+
+#-----------------------------------------------------------------------    
+#now replace all occurence of java with python in above file
+
+# with open("practice.txt","r") as f:
+#     data=f.read()
+# new_data=data.replace('java','python')
+# print(new_data)
+# with open('practice.txt','w') as f:
+#     f.write(new_data)
+
+#------------------------------------------------------------------------   
+# search if the word learning exist in file or not
+word="learning"
+with open("practice.txt","r") as f:
+    data=f.read()
+    if(data.find(word)!=-1):
+        print("found")
+    else:
+        print("not found")         
