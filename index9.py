@@ -51,19 +51,35 @@
 #METHODS
 # methods are function that belongs to objects
 
+# class Student:
+#     college_name="ABC"
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
+
+#     def welcome(self):
+#         print("welcome student",self.name)
+
+#     def get_marks(self):
+#         return self.marks
+
+# s1=Student("paru",97)
+# s1.welcome()                         #welcome student paru
+# print(s1.get_marks())                #97
+
+#-----------------------------------------------------------------------------
+#PRACTICE QUESTION
+#create student class that takes name and marks of 3 subjects as arguments in constructor then create a method to print average
+
 class Student:
-    college_name="ABC"
     def __init__(self,name,marks):
         self.name=name
         self.marks=marks
+    def get_avg(self):
+        sum=0
+        for val in self.marks:
+            sum+=val   
+        print("hi",self.name,"your averag score is: ",sum/3)
 
-    def welcome(self):
-        print("welcome student",self.name)
-
-    def get_marks(self):
-        return self.marks
-
-s1=Student("paru",97)
-s1.welcome()                         #welcome student paru
-print(s1.get_marks())                #97
-
+s1=Student("tony",[97,98,99])
+s1.get_avg()           
