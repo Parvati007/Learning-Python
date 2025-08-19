@@ -8,7 +8,12 @@
 # "w" – write (overwrites)
 # "a" – append
 # "rb", "wb" – binary modes
-# "r+" – read and write
+# "x" - create a new file and open it for writing
+# "b" - binary mode
+# "t" - text mode(default)
+# "r+" – read + overwrite....pointer start....no truncate
+# "w+" - read + overwrite ....................truncate
+# "a+" - read + append......pointer last......no truncate
 
 # 2. Reading from a File
 
@@ -138,4 +143,6 @@ with open("practice.txt","r") as f:
         if(int(val)%2==0):
             count+=1
 
-print(count)         #1,2,3,4,5,6,7,8,9,10...............output..5            
+print(count)         #1,2,3,4,5,6,7,8,9,10...............output..5
+
+#---------------------------------------------------------------------------------------
