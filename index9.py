@@ -26,4 +26,19 @@
 # all class have function called __init__ which is always executed when the object is being initiated
 #
 #example:-
-  
+class Student:
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
+        print("adding new student data..")   
+
+s1=Student("parvati",97)
+print(s1.name,s1.marks)
+
+s2=Student("aditi singh",100)
+print(s2.name,s2.marks)
+
+#constructor are of two types
+#1. default
+#2. parameterized
+
