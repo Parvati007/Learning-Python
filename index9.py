@@ -71,15 +71,27 @@
 #PRACTICE QUESTION
 #create student class that takes name and marks of 3 subjects as arguments in constructor then create a method to print average
 
-class Student:
-    def __init__(self,name,marks):
-        self.name=name
-        self.marks=marks
-    def get_avg(self):
-        sum=0
-        for val in self.marks:
-            sum+=val   
-        print("hi",self.name,"your averag score is: ",sum/3)
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
+#     def get_avg(self):
+#         sum=0
+#         for val in self.marks:
+#             sum+=val   
+#         print("hi",self.name,"your averag score is: ",sum/3)
 
-s1=Student("tony",[97,98,99])
-s1.get_avg()           
+# s1=Student("tony",[97,98,99])
+# s1.get_avg()  
+# 
+# -------------------------------------------------------------------
+# STATIC METHOD
+# methods that don't use the self parameter(work at class level)
+# decorator is used----------->@staticmethod
+# 
+#class Student:
+#     @staticmethod
+#     def college():
+#         print('ABC College')
+# s1=Student()
+# s1.college()                
