@@ -7,19 +7,19 @@
 #object is instance of class
 
 #example :-
-# class Student:
-#     name="parvati"
+class Student:
+    name="parvati"
 
-# s1=Student()
-# print(s1.name)
+s1=Student()
+print(s1.name)
 
-# class Car:
-#     brand="BMW"
-#     color="green"
+class Car:
+    brand="BMW"
+    color="green"
 
-# car1=Car()
-# print(car1.brand)
-# print(car1.color)   
+car1=Car()
+print(car1.brand)
+print(car1.color)   
 #------------------------------------------------------
 
 #CONSTRUCTOR  __init__ function
