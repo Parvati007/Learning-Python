@@ -122,7 +122,25 @@
 # print(Person.name)                  #anonymous
 # p1.changeName("Rahul Kumar")
 # print(p1.name)                      #Rahul Kumar                
-# print(Person.name)                  #Rahul Kumar      
+# print(Person.name)                  #Rahul Kumar  
+
+
+#---------------------------------------------------------------------
+#PROPERTY
+#we use @property decorator on any method in the class to use the method as a property
+class Student:
+    def __init__(self,phy,chem,math):
+        self.phy=phy
+        self.chem=chem
+        self.math=math
+    @property                      #attribute h usko bs method way me type kr rahe
+    def percentage(self):
+        return str((self.phy+self.chem+self.math)/3)+" %"
+stu1=Student(98,97,99)
+print(stu1.percentage)
+stu1.phy=86
+print(stu1.percentage) 
+
 
 
 
