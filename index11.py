@@ -70,8 +70,33 @@
 #------------------------------------------------------------------
 #MULTIPLE Inheritance Example
 
+# class A:
+#     varA="welcome to class A"
+# class B:
+#     varB="welcome to class B"
+# class C(A,B):
+#     varC="welcome to class C"
+# c1=C()
+# print(c1.varC)#welcome to class C
+# print(c1.varB)#welcome to class B
+# print(c1.varA)#welcome to class A           
 
+#----------------------------------------------------------
+#Super method:-is used to access method of the parent class
 
+# class Car:
+#     def __init__(self,type):
+#         self.type=type
+#     @staticmethod
+#     def start():
+#         print("car started...")
+# class ToyotaCar(Car):
+#     def __init__(self,name,type): 
+#         super().__init__(type)          #car class is called
+#         self.name=name 
+#         super().start()                #car class is called
+# car1=ToyotaCar("prius","electric")
+# print(car1.type)
 
 
 
