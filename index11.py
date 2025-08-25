@@ -98,6 +98,33 @@
 # car1=ToyotaCar("prius","electric")
 # print(car1.type)
 
+#-------------------------------------------------------------------
+#CLASS METHOD
+#a class method is based to the class and receives the class as an implicit first argument
+
+#note:-static method can't access or modify class state and generally for utility
+
+#types of method:
+#1.static method
+#2.class method(cls)
+#3.instance method(self)
+
+#ex:-
+# class Person:
+#     name="anonymous"
+#     #def changeName(obj,name):
+#     #    self.__class__.name="Rahul"
+
+#     @classmethod
+#     def changeName(cls,name):
+#         cls.name=name
+# p1=Person()
+# print(Person.name)                  #anonymous
+# p1.changeName("Rahul Kumar")
+# print(p1.name)                      #Rahul Kumar                
+# print(Person.name)                  #Rahul Kumar      
+
+
 
 
         
