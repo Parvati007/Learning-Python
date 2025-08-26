@@ -57,23 +57,28 @@
 #2. define a employee class with attribute role,department and salary, showdetails().
 #Create an engineer class that inherits properties from employees and has additional attributes name and age.
 
-class Employee:
-    def __init__(self,role,dept,salary):
-        self.role=role
-        self.dept=dept
-        self.salary=salary
-    def  showDetails(self):
-        print("role = ",self.role)
-        print("dept = ",self.dept)
-        print("salary = ",self.salary)
+# class Employee:
+#     def __init__(self,role,dept,salary):
+#         self.role=role
+#         self.dept=dept
+#         self.salary=salary
+#     def  showDetails(self):
+#         print("role = ",self.role)
+#         print("dept = ",self.dept)
+#         print("salary = ",self.salary)
 
-class Engineer(Employee):
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
-        super().__init__("Engineer","IT","750000")
-engg1=Engineer("Elon musk",40)
-engg1.showDetails()        
+# class Engineer(Employee):
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#         super().__init__("Engineer","IT","750000")
+# engg1=Engineer("Elon musk",40)
+# engg1.showDetails()  
+
+#----------------------------------------------------------------------------------------
+#3. create a class called order which stores item and its price.
+#use dunder functions __gt__() to convey that: order1 > order2 if price of order1 > price of order2.
+
 
 
         
