@@ -1,5 +1,5 @@
 #PROJECT
-#some short and clear benefits of Python:
+#some short and clear benefits of Python:-
 
 # Easy to Learn & Readable – Simple syntax close to English.
 # Versatile – Used in web development, AI/ML, data science, automation, etc.
@@ -8,3 +8,5 @@
 # Rapid Development – Speeds up prototyping and project completion.
 # Strong Library Ecosystem – NumPy, Pandas, TensorFlow, Django, Flask, etc.
 # High Demand – Popular in industry, increasing career opportunities.
+
+#Now we are making a project after all the concepts that we have learned so far..
