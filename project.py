@@ -9,4 +9,3 @@
 # Strong Library Ecosystem – NumPy, Pandas, TensorFlow, Django, Flask, etc.
 # High Demand – Popular in industry, increasing career opportunities.
 
-#Now we are making a project after all the concepts that we have learned so far..
