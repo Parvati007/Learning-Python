@@ -1,5 +1,4 @@
 #PROJECT
-#some short and clear benefits of Python:-
 
 # Easy to Learn & Readable – Simple syntax close to English.
 # Versatile – Used in web development, AI/ML, data science, automation, etc.
