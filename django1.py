@@ -24,3 +24,8 @@
 #user----------django-----url----view------(1)model---(2)template
 #View is used to execute the business logic and interact with a model to carry data and render templates
 #there is no separate controllers
+
+#-------------------------------------------------------------------------------------------
+#URL Dispatching
+#hello/urls.py----------->home/urls.py-------------->home/views.py---------->run the functions/render
+
