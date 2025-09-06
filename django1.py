@@ -34,3 +34,10 @@
 #static files in djnago are css, js and image files stored in static/ directories
 #they are configured with STATIC_URL served in development automatically
 #NOTE:- public ya sensitive info nhi dalna in files me
+
+#---------------------------------------------------------------------------------------------------------
+#TEMPLATES IN DJANGO
+#templates are HTML files that define the structure and layout of the web pages in django application
+#DTL = DJANGO TEMPLATE LANGUAGE
+#DRP = DON'T REPEAT YOURSELF
+#{{variable}}.....you access like this in html file.
