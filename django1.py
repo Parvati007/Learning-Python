@@ -15,7 +15,7 @@
 #STARTING SERVER
 #python manage.py runserver
 
-#---------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------
 #MVT Architecture of django...........software design pattern
 #Model:- DATABASE
 #View:-  LOGIC
@@ -25,7 +25,12 @@
 #View is used to execute the business logic and interact with a model to carry data and render templates
 #there is no separate controllers
 
-#-------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------
 #URL Dispatching
 #hello/urls.py----------->home/urls.py-------------->home/views.py---------->run the functions/render
 
+#---------------------------------------------------------------------------------------------------------
+#STATIC FILES
+#static files in djnago are css, js and image files stored in static/ directories
+#they are configured with STATIC_URL served in development automatically
+#NOTE:- public ya sensitive info nhi dalna in files me
